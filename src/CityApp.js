@@ -6,7 +6,7 @@ class CityApp extends React.Component {
   render() {
     return (
       <div className="App">
-        <City />
+        <City title="New York" attractions = {['Effile Tower', 'Statue of Liberty']} />
       </div>
     );
   }
