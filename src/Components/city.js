@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import AttractionsList from './attractionslist';
-import '../_Styles/city.css'
+import '../_Styles/city.css';
 
 class City extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class City extends React.Component {
               <h3 className="city-title">{title}</h3>
 
                 <div className="city-card-img">
-                <img src={this.props.img} alt={title} /> 
+                <img src={img} alt={title} /> 
                 </div>
 
                 <div className="card-content">
