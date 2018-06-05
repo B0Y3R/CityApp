@@ -5,7 +5,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <header>
-                <div className="title">City InfoCard</div>
+                <h2 className="title">City InfoCard</h2>
                 <nav>
                     <ul>
                         <li><a>New City</a></li>
@@ -14,7 +14,6 @@ class Navbar extends React.Component {
                         <li><a>Contact Us</a></li>
                     </ul>
                 </nav>
-
             </header>
         );
     }

@@ -7,11 +7,12 @@ class AttractionsList extends React.Component {
     }
 
     render() {
+        const attractions = this.props.attractions.map((att, index) => (
+            <li> key={index}{att} </li>
+        ));
         return(
             <ul>
-              {this.props.attractions.map((att, index) => (
-                <li key={index}>{att}</li>  
-              ))}
+                {attractions}  
             </ul>
         );
     }
