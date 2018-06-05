@@ -31,7 +31,7 @@ class CityList extends React.Component {
     }
 
     static propTypes = {
-        recipes: PropTypes.arrayOf(PropTypes.object)
+        recipes: PropTypes.arrayOf(PropTypes.object).isRequired
     }
 
     render() {
